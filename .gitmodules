@@ -1,0 +1,6 @@
+[submodule "HGFEM"]
+	path = HGFEM
+	url = https://github.com/hanghang3/GallopingSIM-HGFEM.git
+[submodule "Import"]
+	path = Import
+	url = https://github.com/hanghang3/GallopingSIM-Import.git
