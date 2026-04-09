@@ -1,6 +1,6 @@
 project(ElementCalculator)
 
 add_library(${PROJECT_NAME}
-SHARED
+STATIC
 CableElement.cpp
 )

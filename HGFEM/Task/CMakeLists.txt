@@ -1,16 +1,16 @@
 project(Task)
 
 add_library(${PROJECT_NAME}
-SHARED
+STATIC
 Solver.cpp
 )
 
 target_include_directories(${PROJECT_NAME}
 PUBLIC
-${ElementCalculator_Dir}
+${CMAKE_SOURCE_DIR}/HGFEM
 )
 
-target_link_directories(${PROJECT_NAME}
+target_link_libraries(${PROJECT_NAME}
 PUBLIC
-CableElement.cpp
+ElementCalculator
 )
