@@ -1,0 +1,32 @@
+*.d
+
+*.slo
+*.lo
+*.o
+*.obj
+
+*.gch
+*.pch
+
+*.so
+*.dylib
+*.dll
+
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lab
+
+# Executables
+*.exe
+*.out
+*.app
+
+# build
+/build
+/bin
+
